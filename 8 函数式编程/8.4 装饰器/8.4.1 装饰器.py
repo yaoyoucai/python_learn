@@ -5,9 +5,9 @@ def log(func):
         return func(*args,**kw)
     return wrapper
 
+@log
 def now():
     print('2025-4-20')
-# 使用装饰器
-now = log(now)
 
 now()
+
