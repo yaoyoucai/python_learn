@@ -2,7 +2,6 @@ def func():
     print("a")
     yield
     print("b")
-    yield
     print("c")
 
 def a():
