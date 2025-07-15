@@ -1,13 +1,6 @@
-def func():
-    print("a")
-    yield
-    print("b")
-    print("c")
+def test() -> str:
+    return 33
 
-def a():
-    co = func()
-    next(co)
-    print('in function A')
-    next(co)
+print(test())
 
-a()
+print(id(test))
