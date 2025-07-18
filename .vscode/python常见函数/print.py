@@ -1,1 +1,1 @@
-print('aa','bb','cc',sep='分隔',end='结束',file=sys.stdout)
+print('aa','bb','cc',sep='分隔',end='结束')
