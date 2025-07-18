@@ -33,6 +33,6 @@ def test_continue():
 def demo1():
     L = ['Bart', 'Lisa', 'Adam']
     for value in L:
-        print(value)
+        print(value,sep=",",end="aaa")
 
-test_continue()        
+demo1()
